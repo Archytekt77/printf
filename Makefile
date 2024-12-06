@@ -13,7 +13,7 @@
 .PHONY: all compile_submake clean fclean
 
 # Nom de l'exécutable
-NAME = libft.a
+NAME = libftprintf.a
 
 # Nom du Makefile à compiler
 SUBMAKEFILE = Libft/Makefile
@@ -28,6 +28,8 @@ CFLAGS = -Wall -Werror -Wextra
 
 # Fichiers source
 PRINTF_SRC  = \
+	ft_printf.c \
+	ft_printf_utils.c \
 
 # Fichiers objets
 OBJ = $(addprefix $(OBJ_DIR)/, $(LIBFT_SRC:.c=.o))
