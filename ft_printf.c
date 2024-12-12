@@ -6,7 +6,7 @@
 /*   By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/09 12:56:28 by lmaria            #+#    #+#             */
-/*   Updated: 2024/12/10 19:42:35 by lmaria           ###   ########.fr       */
+/*   Updated: 2024/12/12 13:06:13 by lmaria           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,16 +77,16 @@ int	ft_printf(const char *format, ...)
 	return (count);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int	main(void)
-{
-	int	nb;
-	int	nb2;
+// int	main(void)
+// {
+// 	int	nb;
+// 	int	nb2;
 
-	nb = ft_printf("abcde % \n");
-	nb2 = printf("abcde % \n");
-	printf("%d\n", nb);
-	printf("%d\n", nb2);
-	return (0);
-}
+// 	nb = ft_printf("abcde % \n");
+// 	nb2 = printf("abcde % \n");
+// 	printf("%d\n", nb);
+// 	printf("%d\n", nb2);
+// 	return (0);
+// }
