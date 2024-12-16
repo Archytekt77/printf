@@ -6,7 +6,7 @@
 /*   By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/09 12:57:06 by lmaria            #+#    #+#             */
-/*   Updated: 2024/12/09 16:36:55 by lmaria           ###   ########.fr       */
+/*   Updated: 2024/12/16 14:57:03 by lmaria           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-// Prototypes des fonctions
 int	ft_printf(const char *format, ...);
 int	ft_putchar(char c);
 int	ft_putstr(char *s);
